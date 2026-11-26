@@ -1,0 +1,25 @@
+
+# API framework and server
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+
+# Configuration and environment variables
+pydantic==2.14.4
+pydantic-settings==2.16.3
+python-dotenv==1.2.4
+
+# LLM integration
+openai==3.60.0
+
+# Embeddings and vector database
+fastembed==0.9.1
+qdrant-client[fastembed]==1.20.0
+
+# PDF text extraction
+pypdf==7.1.1
+python-multipart==0.0.34
+
+# Testing and code quality
+pytest==9.2.0
+httpx==0.28.1
+ruff==0.17.6
